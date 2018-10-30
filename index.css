@@ -1,0 +1,108 @@
+.cardboard > ul
+{
+    text-align: left;
+}
+
+.cat-name:hover:first-letter
+{
+    color: #f00 !important;
+}
+
+.cardboard:hover
+{
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5) !important;
+}
+
+body
+{
+    text-align: center;
+}
+
+.article-title
+{
+    display: inline-block;
+    margin: auto 20px;
+    font-size: 50px;
+    font-family: Malgun Gothic, Fallback, serif;
+}
+
+.list-button
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 20px;
+    display: inline-block;
+    border: 0;
+    width: 50px;
+    height: 50px;
+    background-image: url('list-bg.png');
+}
+
+.list-button:focus
+{
+    border: 2px lightgray inset;
+}
+
+.list-button:focus ~ .cat-site > .cardboard
+{
+
+    border-bottom: 2px solid lightgray !important;
+    height: auto !important;
+    display: block !important;
+    margin: 30px auto !important;
+}
+
+.cardboard > p
+{
+    padding: 10px;
+}
+
+.list-button:focus ~ .cat-site > .cardboard > ul
+{
+    display: none !important;
+}
+
+.list-button:focus ~ .cat-site > .cardboard > p
+{
+    display: block !important;
+}
+
+.article-title:hover:first-letter
+{
+    color: #f00 !important;
+}
+
+.cardboard
+{
+    border: 2px solid lightgray;
+    margin: 20px;
+    display: inline-block;
+    width: 500px;
+    min-width: 500px;
+    height: 500px;
+    min-height: 500px;
+    text-overflow: ellipsis;
+}
+
+.cardboard > p
+{
+    display: none;
+    text-align: justify;
+    hyphens: auto;
+}
+
+.koto-photo
+{
+    width: 100%;
+    height: 60%;
+}
+
+.cat-name
+{
+    padding: 10px;
+    width: 480px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
