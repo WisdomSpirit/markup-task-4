@@ -5,12 +5,12 @@
 
 .cat-name:hover:first-letter
 {
-    color: #f00 !important;
+    color: #f00;
 }
 
 .cardboard:hover
 {
-    box-shadow: 0 0 10px rgba(0, 0, 0, .5) !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 
 body
@@ -36,21 +36,20 @@ body
     border: 0;
     width: 50px;
     height: 50px;
-    background-image: url('list-bg.png');
 }
 
-.list-button:focus
+.list-button:checked
 {
     border: 2px lightgray inset;
 }
 
-.list-button:focus ~ .cat-site > .cardboard
+.list-button:checked ~ .cat-site > .cardboard
 {
 
-    border-bottom: 2px solid lightgray !important;
-    height: auto !important;
-    display: block !important;
-    margin: 30px auto !important;
+    border-bottom: 2px solid lightgray;
+    height: auto;
+    display: block;
+    margin: 30px auto;
 }
 
 .cardboard > p
@@ -58,19 +57,19 @@ body
     padding: 10px;
 }
 
-.list-button:focus ~ .cat-site > .cardboard > ul
+.list-button:checked ~ .cat-site > .cardboard > ul
 {
-    display: none !important;
+    display: none;
 }
 
-.list-button:focus ~ .cat-site > .cardboard > p
+.list-button:checked ~ .cat-site > .cardboard > p
 {
-    display: block !important;
+    display: block;
 }
 
 .article-title:hover:first-letter
 {
-    color: #f00 !important;
+    color: #f00;
 }
 
 .cardboard
